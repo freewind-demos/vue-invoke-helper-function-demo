@@ -1,16 +1,9 @@
-# vue-typescript-demo
+Vue Invoke Helper Function Demo
+===============================
 
-## Project setup
+Define the helper function as an instance method of the class.
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```

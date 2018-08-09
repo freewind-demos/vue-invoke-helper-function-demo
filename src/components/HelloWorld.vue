@@ -1,6 +1,6 @@
 <template>
     <div class="hello">
-        {{ msg }}
+        {{ hello(msg) }}
     </div>
 </template>
 
@@ -9,7 +9,11 @@
 
     @Component
     export default class HelloWorld extends Vue {
-        @Prop() private msg: string = "Hello Vue!";
+        @Prop() private msg: string = "Vue!";
+
+        hello(msg: string): string {
+            return "Hello, " + msg;
+        }
     }
 </script>
 
